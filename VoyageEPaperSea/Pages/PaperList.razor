@@ -1,0 +1,19 @@
+﻿@page "/paperList"
+
+<PageTitle>试题列表</PageTitle>
+
+<h1>试题列表</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<MButton Depressed Color="primary" @onclick="IncrementCount">Click me</MButton>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+}
