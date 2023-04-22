@@ -16,3 +16,45 @@
   right: 0.75rem;
   top: 0.5rem;
 }
+
+.big_button {
+  height: 100%;
+  width: 100%;
+  font-size: 32px;
+  backdrop-filter: blur(3px);
+  border-radius: 32px; 
+  box-shadow: 25px 25px 47px 0px rgba(145, 192, 255, 0.5), inset -5px -5px 8px 0px rgba(145, 192, 255, 0.6), inset 0px 8px 18px 0px rgb(255, 255, 255);
+  margin: 0.2em;
+  padding: 2em;
+  background: powderblue;
+}
+
+.small_button {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  border: midnightblue 1px solid;
+  padding: 0.5em;
+  background: skyblue;
+}
+
+.left_top_border {
+  border-top-left-radius: 0.4em;
+}
+
+.right_top_border {
+  border-top-right-radius: 0.4em;
+}
+
+.left_bottom_border {
+  border-bottom-left-radius: 0.4em;
+}
+
+.right_bottom_border {
+  border-bottom-right-radius: 0.4em;
+}
+
+.func_grid {
+  border-radius: 0.1em;
+  background: lightskyblue;
+}
